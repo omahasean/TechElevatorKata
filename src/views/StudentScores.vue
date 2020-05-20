@@ -33,62 +33,25 @@
 </template>
 
 <script>
+import ExerciseService from '@/services/ExerciseService';
 import Profile from '@/components/ui/Profile';
+import StudentService from '@/services/StudentService';
+
+const exerciseService = new ExerciseService();
+const studentService = new StudentService();
 
 export default {
   components: {
     Profile,
   },
+  async beforeCreate() {
+    this.students = await studentService.getAll();
+    this.exercises = await exerciseService.getAll();
+  },
   data() {
     return {
-      exercises: [
-        { id: 1, name: 'Intro to OOP', score: 3 },
-        { id: 2, name: 'Intro to SQL', score: 3 },
-        { id: 3, name: 'Polymorphism ', score: 3 },
-        { id: 1, name: 'Intro to OOP', score: 3 },
-        { id: 2, name: 'Intro to SQL', score: 3 },
-      ],
-      students: [
-        {
-          id: 1,
-          name: 'James Brown',
-          avatar:
-            'https://images-na.ssl-images-amazon.com/images/M/MV5BNDExMzIzNjk3Nl5BMl5BanBnXkFtZTcwOTE4NDU5OA@@._V1_UX172_CR0,0,172,256_AL_.jpg',
-          exercises: [
-            { id: 1, name: 'Intro to OOP', score: 3 },
-            { id: 2, name: 'Intro to SQL', score: 2 },
-            { id: 3, name: 'Polymorphism ', score: 3 },
-            { id: 1, name: 'Intro to OOP', score: 3 },
-            { id: 2, name: 'Intro to SQL', score: 1 },
-          ],
-        },
-        {
-          id: 2,
-          name: 'James Brown',
-          avatar:
-            'https://images-na.ssl-images-amazon.com/images/M/MV5BMTgyNTA0ODk5Ml5BMl5BanBnXkFtZTgwNjAyMTI3NjE@._V1_UY256_CR15,0,172,256_AL_.jpg',
-          exercises: [
-            { id: 1, name: 'Intro to OOP', score: 1 },
-            { id: 2, name: 'Intro to SQL', score: 1 },
-            { id: 3, name: 'Polymorphism ', score: 3 },
-            { id: 1, name: 'Intro to OOP', score: 3 },
-            { id: 2, name: 'Intro to SQL', score: 1 },
-          ],
-        },
-        {
-          id: 3,
-          name: 'James Brown',
-          avatar:
-            'https://images-na.ssl-images-amazon.com/images/M/MV5BNDExMzIzNjk3Nl5BMl5BanBnXkFtZTcwOTE4NDU5OA@@._V1_UX172_CR0,0,172,256_AL_.jpg',
-          exercises: [
-            { id: 1, name: 'Intro to OOP', score: 3 },
-            { id: 2, name: 'Intro to SQL', score: 3 },
-            { id: 3, name: 'Polymorphism ', score: 3 },
-            { id: 1, name: 'Intro to OOP', score: 0 },
-            { id: 2, name: 'Intro to SQL', score: 3 },
-          ],
-        },
-      ],
+      exercises: [],
+      students: [],
     };
   },
 };

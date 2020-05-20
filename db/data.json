@@ -1,4 +1,11 @@
 {
+  "exercises": [
+    { "id": 1, "name": "Intro to OOP", "score": 3 },
+    { "id": 2, "name": "Intro to SQL", "score": 3 },
+    { "id": 3, "name": "Polymorphism ", "score": 3 },
+    { "id": 4, "name": "Intro to OOP", "score": 3 },
+    { "id": 5, "name": "Intro to SQL", "score": 3 }
+  ],
   "students": [
     {
       "id": 1,
@@ -8,8 +15,8 @@
         { "id": 1, "name": "Intro to OOP", "score": 3 },
         { "id": 2, "name": "Intro to SQL", "score": 2 },
         { "id": 3, "name": "Polymorphism", "score": 3 },
-        { "id": 1, "name": "Intro to OOP", "score": 3 },
-        { "id": 2, "name": "Intro to SQL", "score": 1 }
+        { "id": 4, "name": "Intro to OOP", "score": 3 },
+        { "id": 5, "name": "Intro to SQL", "score": 1 }
       ]
     },
     {
@@ -20,8 +27,8 @@
         { "id": 1, "name": "Intro to OOP", "score": 1 },
         { "id": 2, "name": "Intro to SQL", "score": 1 },
         { "id": 3, "name": "Polymorphism", "score": 3 },
-        { "id": 1, "name": "Intro to OOP", "score": 3 },
-        { "id": 2, "name": "Intro to SQL", "score": 1 }
+        { "id": 4, "name": "Intro to OOP", "score": 3 },
+        { "id": 5, "name": "Intro to SQL", "score": 1 }
       ]
     },
     {
@@ -32,8 +39,8 @@
         { "id": 1, "name": "Intro to OOP", "score": 3 },
         { "id": 2, "name": "Intro to SQL", "score": 3 },
         { "id": 3, "name": "Polymorphism", "score": 3 },
-        { "id": 1, "name": "Intro to OOP", "score": 0 },
-        { "id": 2, "name": "Intro to SQL", "score": 3 }
+        { "id": 4, "name": "Intro to OOP", "score": 0 },
+        { "id": 5, "name": "Intro to SQL", "score": 3 }
       ]
     }
   ]
