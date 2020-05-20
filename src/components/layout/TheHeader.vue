@@ -24,6 +24,7 @@ header {
   height: 72px;
   background-color: var(--theme-primary, #202124);
   width: 100%;
+  z-index: 10;
 }
 
 header > .header-row {
