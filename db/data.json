@@ -1,10 +1,10 @@
 {
   "exercises": [
-    { "id": 1, "name": "Intro to OOP", "score": 3 },
-    { "id": 2, "name": "Intro to SQL", "score": 3 },
-    { "id": 3, "name": "Polymorphism ", "score": 3 },
-    { "id": 4, "name": "Intro to OOP", "score": 3 },
-    { "id": 5, "name": "Intro to SQL", "score": 3 }
+    { "id": 1, "name": "Intro to OOP" },
+    { "id": 2, "name": "Intro to SQL" },
+    { "id": 3, "name": "Polymorphism " },
+    { "id": 4, "name": "Advancaed JS" },
+    { "id": 5, "name": "MVC - Views Part 1" }
   ],
   "students": [
     {
@@ -15,8 +15,8 @@
         { "id": 1, "name": "Intro to OOP", "score": 3 },
         { "id": 2, "name": "Intro to SQL", "score": 2 },
         { "id": 3, "name": "Polymorphism", "score": 3 },
-        { "id": 4, "name": "Intro to OOP", "score": 3 },
-        { "id": 5, "name": "Intro to SQL", "score": 1 }
+        { "id": 4, "name": "Advancaed JS", "score": 3 },
+        { "id": 5, "name": "MVC - Views Part 1", "score": 1 }
       ]
     },
     {
@@ -27,8 +27,8 @@
         { "id": 1, "name": "Intro to OOP", "score": 3 },
         { "id": 2, "name": "Intro to SQL", "score": 2 },
         { "id": 3, "name": "Polymorphism", "score": 3 },
-        { "id": 4, "name": "Intro to OOP", "score": 3 },
-        { "id": 5, "name": "Intro to SQL", "score": 1 }
+        { "id": 4, "name": "Advancaed JS", "score": 3 },
+        { "id": 5, "name": "MVC - Views Part 1", "score": 1 }
       ]
     },
     {
@@ -39,8 +39,8 @@
         { "id": 1, "name": "Intro to OOP", "score": 3 },
         { "id": 2, "name": "Intro to SQL", "score": 2 },
         { "id": 3, "name": "Polymorphism", "score": 3 },
-        { "id": 4, "name": "Intro to OOP", "score": 3 },
-        { "id": 5, "name": "Intro to SQL", "score": 1 }
+        { "id": 4, "name": "Advancaed JS", "score": 3 },
+        { "id": 5, "name": "MVC - Views Part 1", "score": 1 }
       ]
     },
     {
@@ -51,8 +51,8 @@
         { "id": 1, "name": "Intro to OOP", "score": 3 },
         { "id": 2, "name": "Intro to SQL", "score": 2 },
         { "id": 3, "name": "Polymorphism", "score": 3 },
-        { "id": 4, "name": "Intro to OOP", "score": 3 },
-        { "id": 5, "name": "Intro to SQL", "score": 1 }
+        { "id": 4, "name": "Advancaed JS", "score": 3 },
+        { "id": 5, "name": "MVC - Views Part 1", "score": 1 }
       ]
     },
     {
@@ -63,8 +63,8 @@
         { "id": 1, "name": "Intro to OOP", "score": 3 },
         { "id": 2, "name": "Intro to SQL", "score": 2 },
         { "id": 3, "name": "Polymorphism", "score": 3 },
-        { "id": 4, "name": "Intro to OOP", "score": 3 },
-        { "id": 5, "name": "Intro to SQL", "score": 1 }
+        { "id": 4, "name": "Advancaed JS", "score": 3 },
+        { "id": 5, "name": "MVC - Views Part 1", "score": 1 }
       ]
     },
     {
@@ -75,8 +75,8 @@
         { "id": 1, "name": "Intro to OOP", "score": 3 },
         { "id": 2, "name": "Intro to SQL", "score": 2 },
         { "id": 3, "name": "Polymorphism", "score": 3 },
-        { "id": 4, "name": "Intro to OOP", "score": 3 },
-        { "id": 5, "name": "Intro to SQL", "score": 1 }
+        { "id": 4, "name": "Advancaed JS", "score": 3 },
+        { "id": 5, "name": "MVC - Views Part 1", "score": 1 }
       ]
     },
     {
@@ -87,8 +87,8 @@
         { "id": 1, "name": "Intro to OOP", "score": 3 },
         { "id": 2, "name": "Intro to SQL", "score": 2 },
         { "id": 3, "name": "Polymorphism", "score": 3 },
-        { "id": 4, "name": "Intro to OOP", "score": 3 },
-        { "id": 5, "name": "Intro to SQL", "score": 1 }
+        { "id": 4, "name": "Advancaed JS", "score": 3 },
+        { "id": 5, "name": "MVC - Views Part 1", "score": 1 }
       ]
     },
     {
@@ -99,8 +99,8 @@
         { "id": 1, "name": "Intro to OOP", "score": 3 },
         { "id": 2, "name": "Intro to SQL", "score": 2 },
         { "id": 3, "name": "Polymorphism", "score": 3 },
-        { "id": 4, "name": "Intro to OOP", "score": 3 },
-        { "id": 5, "name": "Intro to SQL", "score": 1 }
+        { "id": 4, "name": "Advancaed JS", "score": 3 },
+        { "id": 5, "name": "MVC - Views Part 1", "score": 1 }
       ]
     },
     {
@@ -111,8 +111,8 @@
         { "id": 1, "name": "Intro to OOP", "score": 3 },
         { "id": 2, "name": "Intro to SQL", "score": 2 },
         { "id": 3, "name": "Polymorphism", "score": 3 },
-        { "id": 4, "name": "Intro to OOP", "score": 3 },
-        { "id": 5, "name": "Intro to SQL", "score": 1 }
+        { "id": 4, "name": "Advancaed JS", "score": 3 },
+        { "id": 5, "name": "MVC - Views Part 1", "score": 1 }
       ]
     },
     {
@@ -123,8 +123,8 @@
         { "id": 1, "name": "Intro to OOP", "score": 3 },
         { "id": 2, "name": "Intro to SQL", "score": 2 },
         { "id": 3, "name": "Polymorphism", "score": 3 },
-        { "id": 4, "name": "Intro to OOP", "score": 3 },
-        { "id": 5, "name": "Intro to SQL", "score": 1 }
+        { "id": 4, "name": "Advancaed JS", "score": 3 },
+        { "id": 5, "name": "MVC - Views Part 1", "score": 1 }
       ]
     },
     {
@@ -135,8 +135,8 @@
         { "id": 1, "name": "Intro to OOP", "score": 3 },
         { "id": 2, "name": "Intro to SQL", "score": 2 },
         { "id": 3, "name": "Polymorphism", "score": 3 },
-        { "id": 4, "name": "Intro to OOP", "score": 3 },
-        { "id": 5, "name": "Intro to SQL", "score": 1 }
+        { "id": 4, "name": "Advancaed JS", "score": 3 },
+        { "id": 5, "name": "MVC - Views Part 1", "score": 1 }
       ]
     },
     {
@@ -147,8 +147,8 @@
         { "id": 1, "name": "Intro to OOP", "score": 3 },
         { "id": 2, "name": "Intro to SQL", "score": 2 },
         { "id": 3, "name": "Polymorphism", "score": 3 },
-        { "id": 4, "name": "Intro to OOP", "score": 3 },
-        { "id": 5, "name": "Intro to SQL", "score": 1 }
+        { "id": 4, "name": "Advancaed JS", "score": 3 },
+        { "id": 5, "name": "MVC - Views Part 1", "score": 1 }
       ]
     },
     {
@@ -159,8 +159,8 @@
         { "id": 1, "name": "Intro to OOP", "score": 3 },
         { "id": 2, "name": "Intro to SQL", "score": 2 },
         { "id": 3, "name": "Polymorphism", "score": 3 },
-        { "id": 4, "name": "Intro to OOP", "score": 3 },
-        { "id": 5, "name": "Intro to SQL", "score": 1 }
+        { "id": 4, "name": "Advancaed JS", "score": 3 },
+        { "id": 5, "name": "MVC - Views Part 1", "score": 1 }
       ]
     },
     {
@@ -171,8 +171,8 @@
         { "id": 1, "name": "Intro to OOP", "score": 3 },
         { "id": 2, "name": "Intro to SQL", "score": 2 },
         { "id": 3, "name": "Polymorphism", "score": 3 },
-        { "id": 4, "name": "Intro to OOP", "score": 3 },
-        { "id": 5, "name": "Intro to SQL", "score": 1 }
+        { "id": 4, "name": "Advancaed JS", "score": 3 },
+        { "id": 5, "name": "MVC - Views Part 1", "score": 1 }
       ]
     },
     {
@@ -183,8 +183,8 @@
         { "id": 1, "name": "Intro to OOP", "score": 3 },
         { "id": 2, "name": "Intro to SQL", "score": 2 },
         { "id": 3, "name": "Polymorphism", "score": 3 },
-        { "id": 4, "name": "Intro to OOP", "score": 3 },
-        { "id": 5, "name": "Intro to SQL", "score": 1 }
+        { "id": 4, "name": "Advancaed JS", "score": 3 },
+        { "id": 5, "name": "MVC - Views Part 1", "score": 1 }
       ]
     },
     {
@@ -195,8 +195,8 @@
         { "id": 1, "name": "Intro to OOP", "score": 3 },
         { "id": 2, "name": "Intro to SQL", "score": 2 },
         { "id": 3, "name": "Polymorphism", "score": 3 },
-        { "id": 4, "name": "Intro to OOP", "score": 3 },
-        { "id": 5, "name": "Intro to SQL", "score": 1 }
+        { "id": 4, "name": "Advancaed JS", "score": 3 },
+        { "id": 5, "name": "MVC - Views Part 1", "score": 1 }
       ]
     },
     {
@@ -207,8 +207,8 @@
         { "id": 1, "name": "Intro to OOP", "score": 3 },
         { "id": 2, "name": "Intro to SQL", "score": 2 },
         { "id": 3, "name": "Polymorphism", "score": 3 },
-        { "id": 4, "name": "Intro to OOP", "score": 3 },
-        { "id": 5, "name": "Intro to SQL", "score": 1 }
+        { "id": 4, "name": "Advancaed JS", "score": 3 },
+        { "id": 5, "name": "MVC - Views Part 1", "score": 1 }
       ]
     },
     {
@@ -219,8 +219,8 @@
         { "id": 1, "name": "Intro to OOP", "score": 3 },
         { "id": 2, "name": "Intro to SQL", "score": 2 },
         { "id": 3, "name": "Polymorphism", "score": 3 },
-        { "id": 4, "name": "Intro to OOP", "score": 3 },
-        { "id": 5, "name": "Intro to SQL", "score": 1 }
+        { "id": 4, "name": "Advancaed JS", "score": 3 },
+        { "id": 5, "name": "MVC - Views Part 1", "score": 1 }
       ]
     },
     {
@@ -231,8 +231,8 @@
         { "id": 1, "name": "Intro to OOP", "score": 3 },
         { "id": 2, "name": "Intro to SQL", "score": 2 },
         { "id": 3, "name": "Polymorphism", "score": 3 },
-        { "id": 4, "name": "Intro to OOP", "score": 3 },
-        { "id": 5, "name": "Intro to SQL", "score": 1 }
+        { "id": 4, "name": "Advancaed JS", "score": 3 },
+        { "id": 5, "name": "MVC - Views Part 1", "score": 1 }
       ]
     },
     {
@@ -243,8 +243,8 @@
         { "id": 1, "name": "Intro to OOP", "score": 3 },
         { "id": 2, "name": "Intro to SQL", "score": 2 },
         { "id": 3, "name": "Polymorphism", "score": 3 },
-        { "id": 4, "name": "Intro to OOP", "score": 3 },
-        { "id": 5, "name": "Intro to SQL", "score": 1 }
+        { "id": 4, "name": "Advancaed JS", "score": 3 },
+        { "id": 5, "name": "MVC - Views Part 1", "score": 1 }
       ]
     }
   ]
