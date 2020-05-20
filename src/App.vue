@@ -1,14 +1,31 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
+    <the-header />
+    <router-view class="page-content" />
   </div>
 </template>
 
+<script>
+import TheHeader from '@/components/layout/TheHeader';
+
+export default {
+  components: {
+    TheHeader,
+  },
+};
+</script>
+
 <style>
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+:root {
+  --theme-primary: #fffffd;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -28,5 +45,10 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.page-content {
+  height: calc(100vh - 72px);
+  margin-top: 72px;
 }
 </style>
